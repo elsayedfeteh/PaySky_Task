@@ -18,7 +18,7 @@ This is a simple e-commerce platform API built with Laravel. It allows users to 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-platform.git
+   git clone git@github.com:elsayedfeteh/PaySky_Task.git
    cd ecommerce-platform
 2. Install dependencies:
    ```bash
