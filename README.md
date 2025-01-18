@@ -80,8 +80,8 @@ https://documenter.getpostman.com/view/18700911/2sAYQamrHe
 - `tax_rate` (Float, e.g., 0.10 for 10%)
 - `total_products_price` (Float)
 - `total_price` (Float)
-- `status` (Enum: ['pending', 'processing', 'completed', 'failed'])
-- `payment_status` (Enum: ['pending', 'successful', 'failed'])
+- `status` (Enum: [`pending`, `processing`, `completed`, `failed`])
+- `payment_status` (Enum: [`pending`, `successful`, `failed`])
 - `created_at` (Timestamp)
 - `updated_at` (Timestamp)
 
