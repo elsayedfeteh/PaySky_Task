@@ -4,9 +4,7 @@ namespace App\Http\Controllers\Api\V1\Payment;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Api\V1\Payment\ChangeStatusRequest;
-use App\Http\Resources\Api\V1\Order\OrderResource;
 use App\Services\Contracts\PaymentServiceContract;
-use Illuminate\Http\Request;
 
 class PaymentController extends Controller
 {

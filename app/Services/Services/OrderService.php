@@ -78,9 +78,8 @@ class OrderService implements OrderServiceContract
         return $totalAmount;
     }
 
-    public function calculateTotalWithTaxRate(float $amount): float
+    public function calculateTotalWithTaxRate(float $amount, $taxRate): float
     {
-        $taxRate = TaxConst::getTaxRate();
         return $amount * (1 + $taxRate);
     }
 
